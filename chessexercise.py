@@ -137,5 +137,5 @@ if __name__ == '__main__':
     elif l_piece == 'rook':
         position_list = get_rook_moves(l_position)
 
-    print("Possible moves for {}: ".format(piece.upper()), position_list)
+    # print("Possible moves for {}: ".format(piece.upper()), position_list)
     print(*position_list)
