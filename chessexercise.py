@@ -124,15 +124,6 @@ def get_rook_moves(l_position):
     return final_position_list
 
 
-# def find_available_moves(l_piece, l_position):
-#     if l_piece == 'knight':
-#         return get_knight_moves(l_position)
-#     elif l_piece == 'queen':
-#         return get_queen_moves(l_position)
-#     elif l_piece == 'rook':
-#         return get_rook_moves(l_position)
-
-
 if __name__ == '__main__':
 
     piece, position = read_arguments()
